@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/red"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="number"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="number2"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="47dp" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textColor="#000"
+        android:textSize="30dp" />
+
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD" />
+
+    <Button
+        android:id="@+id/buttonSub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUBTRACT" />
+
+    <Button
+        android:id="@+id/buttonMul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MULTIPLY" />
+
+    <Button
+        android:id="@+id/buttonDiv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DIVIDE" />
+
+    <Button
+        android:id="@+id/button"
+        android:onClick="redd"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+
+        android:text="Red" />
+
+    <Button
+        android:id="@+id/button2"
+        android:onClick="goGreen"
+
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:text="Green" />
+
+</LinearLayout>
